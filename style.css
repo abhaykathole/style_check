@@ -1,0 +1,163 @@
+
+* {
+  box-sizing: border-box;
+}
+.background-details{
+    background-image: url("images/con_5.jpeg");            
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+.heading{
+   background: rgb(51, 0, 0,0.8);           
+   color: #ffdb4d;
+   font-family: Rockwell;
+   font-size:32px;
+   text-shadow:5px 5px 10px #000;
+}
+.menu {
+  background: rgb(0, 0, 0,0.5);
+  color:white;
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  font-family:Century Gothic;
+  font-size:20px;
+  padding: 20px;
+  height: 60px;
+  border-bottom: 2px solid #f1f1f1;
+  text-align:left;
+  
+}
+.menuitem:hover{
+  color:#330000;
+  font-weight:bold;
+  cursor:pointer;
+  background-color:white;
+}
+.main {
+  background: rgb(0, 51, 51,0.4);
+  float: left;
+  width: 60%;                    
+  background-color:none;
+  text-align:center;
+  color:#fff3e6;
+  text-shadow:5px 5px 10px black;
+  font-size:20px;
+  
+}
+.images {
+  width:40%;
+  margin:2px;
+  border:2px #fff3e6 solid;
+  border-radius:50px;
+}
+.right {
+  background: rgb(0, 51, 0,0.6);
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  color:white;
+  font-size:17px;
+  text-shadow:5px 5px 10px black;
+}
+.right-menu{
+  font-family: Agency FB;
+  color:#e6fff2;
+}
+
+a:link, a:visited {
+  background: linear-gradient(to top left, #33ccff 0%, #ffff00 100%);
+  color: #330000;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin:15px 0px;
+  border:2px white solid;
+  border-radius:30px;
+  font-size:20px;
+  font-weight:bold;
+  font-family:Century Gothic;
+}
+a:hover, a:active {
+  background: linear-gradient(to bottom right, #800000 0%, #003300 100%);
+  color:white;
+}    
+
+.before-reg{
+  width:100%;
+  background: linear-gradient(to right, #4d0000 0%, #003300 100%);
+  text-align:center;
+  color:#fff0b3;
+  font-family:Century Gothic;
+  padding:5px 20px;
+  margin-top:20px;
+  border:2px white solid;
+  border-radius:20px;
+}
+.down{
+  
+  background: rgb(255, 255, 230,0.8);           
+  margin:auto;
+  margin-top:20px;
+  width:30%;
+  padding:10px;
+  color:#003333;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  font-size:23px;
+  border:2px black solid;
+  border-radius:20px;
+}
+
+.inside-box{
+  width:100%;
+  background-color: black;
+  font-size:25px;
+  color:#e6ffff;          
+  border:2px white solid;
+  border-radius:5px;
+  padding:2px;
+  margin-top:5px;
+}
+.purchase{
+  background: linear-gradient(to bottom, #ffffff 54%, #ccffff 130%);
+  text-align:center;
+  border:2px #003333 solid;
+  border-radius:5px;
+  font-size:25px;
+  color:#003333;          
+}
+.purchase:hover{
+  cursor:pointer;
+  background: linear-gradient(to bottom, #00ff99 -17%, #006666 130%);
+  color:white;
+}
+.ending-div{
+  color:white;
+  background-color:#1a001a;
+  text-align:center;
+  margin-top:5px;
+  font-size:15px;
+  border:2px black solid;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right, .down{
+    width: 100%;
+  }
+}
